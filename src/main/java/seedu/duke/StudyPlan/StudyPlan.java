@@ -22,12 +22,12 @@ public class StudyPlan {
     public void addModule(String moduleString, int semester) throws Exception {
         ModuleHandler fetcher = new ModuleHandler();
         String prereqs = fetcher.getModulePrerequisites(moduleString);
-        System.out.println("Prerequisites for " + moduleString + ": " + prereqs);
+        System.out.println(prereqs);
 
         studyPlan.get(semester - 1).add(moduleString);
         modules.put(moduleString, semester);
 
-        System.out.println("Added " + moduleString + " to semester " + prereqs);
+        System.out.println("Added " + moduleString + " to semester " + semester);
     }
 
     public void removeModule(String moduleString) {
