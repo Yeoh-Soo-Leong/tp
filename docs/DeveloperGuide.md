@@ -2,7 +2,9 @@
 
 ### Acknowledgements
 {list here sources of all reused/adapted ideas, code, documentation, and third-party libraries -- include links to the original source as well}
-
+We referenced these websites/APIs to populate the data in our program.
+https://cde.nus.edu.sg/ece/undergraduate/electrical-engineering/specialisations-and-minor/
+https://api.nusmods.com/v2/
 ---
 
 ### Design & implementation
@@ -105,5 +107,7 @@ streamlined and guided approach to academic planning.
     again and confirm the module is placed in the specified semester.
 5.  **Delete a Module:** Enter a command to delete a module (e.g., `delete CS3230`). View the study
     plan and confirm the module is removed.
+6. **View Specialisation modules:** Enter a command to view modules that count to a certain specialisation 
+    (e.g., spec ae). 
 
     
